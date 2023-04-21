@@ -15,11 +15,8 @@
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
-    "workflowRules": {
-      "enabled": true,
-      "minVulnerabilitySeverity": "LOW"
-    },
-    "extends": ["github>whitesource/merge-confidence:beta"]
+    "enableRenovate": true,
+    "extends": ["github>renovatebot/spring-remediations"]
   }
   
 }
